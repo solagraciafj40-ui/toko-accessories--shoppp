@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Toko Aksesoris Cantik</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>✨ Toko Aksesoris Cantik ✨</h1>
+  <p>Kalung • Gelang • Anting • Cincin</p>
+</header>
+
+<div id="cart">
+  🛒 <span id="cart-count">0</span>
+</div>
+
+<div class="container">
+
+  <div class="product">
+    <img src="https://via.placeholder.com/200">
+    <h3>Kalung Elegan</h3>
+    <p>Rp 75.000</p>
+    <button onclick="addToCart('Kalung Elegan',75000)">Tambah</button>
+    <button onclick="buyNow('Kalung Elegan')">Beli</button>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/200">
+    <h3>Gelang Lucu</h3>
+    <p>Rp 50.000</p>
+    <button onclick="addToCart('Gelang Lucu',50000)">Tambah</button>
+    <button onclick="buyNow('Gelang Lucu')">Beli</button>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/200">
+    <h3>Anting Fashion</h3>
+    <p>Rp 40.000</p>
+    <button onclick="addToCart('Anting Fashion',40000)">Tambah</button>
+    <button onclick="buyNow('Anting Fashion')">Beli</button>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/200">
+    <h3>Cincin Cantik</h3>
+    <p>Rp 60.000</p>
+    <button onclick="addToCart('Cincin Cantik',60000)">Tambah</button>
+    <button onclick="buyNow('Cincin Cantik')">Beli</button>
+  </div>
+
+</div>
+
+<div class="total-box">
+  Total: Rp <span id="total">0</span>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
